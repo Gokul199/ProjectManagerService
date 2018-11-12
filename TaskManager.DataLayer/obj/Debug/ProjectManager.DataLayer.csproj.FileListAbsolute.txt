@@ -1,0 +1,12 @@
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\obj\Debug\ProjectManager.DataLayer.csprojResolveAssemblyReference.cache
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll.config
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.pdb
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\EntityFramework.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\TaskManager.EntityModel.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\TaskManager.EntityModel.pdb
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\EntityFramework.xml
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.pdb

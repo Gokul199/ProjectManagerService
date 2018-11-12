@@ -1,0 +1,12 @@
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\obj\Debug\ProjectManager.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\TaskManager.BusinessLayer.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\TaskManager.BusinessLayer.pdb
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\TaskManager.EntityModel.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.pdb
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.dll.config
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\TaskManager.EntityModel.pdb
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.dll
+C:\Gokul\FSD-Main\ProjectManagerService\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.pdb

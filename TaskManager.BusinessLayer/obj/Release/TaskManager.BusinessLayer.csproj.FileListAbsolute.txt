@@ -1,0 +1,12 @@
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\TaskManager.BusinessLayer.dll
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\TaskManager.BusinessLayer.pdb
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\TaskManager.DataLayer.dll
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\TaskManager.EntityModel.dll
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\EntityFramework.dll
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\TaskManager.DataLayer.pdb
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\TaskManager.DataLayer.dll.config
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\TaskManager.EntityModel.pdb
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\bin\Release\EntityFramework.xml
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\obj\Release\TaskManager.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\obj\Release\TaskManager.BusinessLayer.dll
+C:\Gokul\Capsule\TaskManagerService\TaskManager.BusinessLayer\obj\Release\TaskManager.BusinessLayer.pdb

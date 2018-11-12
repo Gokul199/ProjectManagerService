@@ -1,0 +1,10 @@
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\b\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll.config
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\b\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\b\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\i\TaskManager.DataLayer\Debug\TaskManager.DataLayer.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\i\TaskManager.DataLayer\Debug\TaskManager.DataLayer.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\b\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll.config
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\b\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\b\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\i\TaskManager.DataLayer\Debug\TaskManager.DataLayer.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\i\TaskManager.DataLayer\Debug\TaskManager.DataLayer.pdb

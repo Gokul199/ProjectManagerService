@@ -1,0 +1,9 @@
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\b\TaskManager.EntityModel\bin\Debug\TaskManager.EntityModel.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\b\TaskManager.EntityModel\bin\Debug\TaskManager.EntityModel.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\i\TaskManager.EntityModel\Debug\TaskManager.EntityModel.csprojResolveAssemblyReference.cache
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\i\TaskManager.EntityModel\Debug\TaskManager.EntityModel.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\i\TaskManager.EntityModel\Debug\TaskManager.EntityModel.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\b\TaskManager.EntityModel\bin\Debug\TaskManager.EntityModel.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\b\TaskManager.EntityModel\bin\Debug\TaskManager.EntityModel.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\i\TaskManager.EntityModel\Debug\TaskManager.EntityModel.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\i\TaskManager.EntityModel\Debug\TaskManager.EntityModel.pdb

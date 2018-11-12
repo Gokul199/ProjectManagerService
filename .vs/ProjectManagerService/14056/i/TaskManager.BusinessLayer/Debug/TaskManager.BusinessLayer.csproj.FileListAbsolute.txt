@@ -1,0 +1,8 @@
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\b\TaskManager.BusinessLayer\bin\Debug\TaskManager.BusinessLayer.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\b\TaskManager.BusinessLayer\bin\Debug\TaskManager.BusinessLayer.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\i\TaskManager.BusinessLayer\Debug\TaskManager.BusinessLayer.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\6156\i\TaskManager.BusinessLayer\Debug\TaskManager.BusinessLayer.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\b\TaskManager.BusinessLayer\bin\Debug\TaskManager.BusinessLayer.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\b\TaskManager.BusinessLayer\bin\Debug\TaskManager.BusinessLayer.pdb
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\i\TaskManager.BusinessLayer\Debug\TaskManager.BusinessLayer.dll
+C:\Gokul\Capsule\TaskManagerService\.vs\TaskManagerService\14056\i\TaskManager.BusinessLayer\Debug\TaskManager.BusinessLayer.pdb
