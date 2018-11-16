@@ -30,7 +30,8 @@ namespace ProjectManager.Test
                 EmployeeID = "369470",
                 StartDate=DateTime.Now,
                 EndDate=DateTime.Now.AddDays(10),
-                Status="Active"
+                Status="Active",
+                Project="Test Project"
             };
             var controller = new ProjectController()
             {
@@ -57,7 +58,8 @@ namespace ProjectManager.Test
                     EmployeeID = "369470",
                     StartDate=DateTime.Now,
                     EndDate=DateTime.Now.AddDays(10),
-                    Status="Active"
+                    Status="Active",
+                    Project="Test Project"
                 },                
             };
 
@@ -95,7 +97,8 @@ namespace ProjectManager.Test
                     EmployeeID = "369470",
                     StartDate = DateTime.Now,
                     EndDate = DateTime.Now.AddDays(10),
-                    Status = "Active"
+                    Status = "Active",
+                    Project="Test project"
                 };
 
             var controller = new ProjectController()
@@ -131,7 +134,9 @@ namespace ProjectManager.Test
                 ProjectStartDate = DateTime.Now,
                 ProjectEndDate = DateTime.Now.AddDays(2),
                 ProjectPriority = 10,
-                ProjectManager = "Test Manager"
+                ProjectManager = "Test Manager",
+                NumberOfTasks=10,
+                Completed="No"
             };
             var controller = new ProjectController()
             {
@@ -152,7 +157,9 @@ namespace ProjectManager.Test
                     ProjectStartDate = DateTime.Now,
                     ProjectEndDate = DateTime.Now.AddDays(2),
                     ProjectPriority = 10,
-                    ProjectManager = "Test Manager"
+                    ProjectManager = "Test Manager",
+                    NumberOfTasks=10,
+                    Completed="No"
                 },
             };
 
@@ -182,8 +189,10 @@ namespace ProjectManager.Test
                     ProjectStartDate = DateTime.Now,
                     ProjectEndDate = DateTime.Now.AddDays(2),
                     ProjectPriority = 5,
-                    ProjectManager = "Test Manager Updated"
-                };
+                    ProjectManager = "Test Manager Updated",
+                    NumberOfTasks = 10,
+                    Completed = "No"
+            };
             var controller = new ProjectController()
             {
                 Request = new System.Net.Http.HttpRequestMessage(),
@@ -205,7 +214,9 @@ namespace ProjectManager.Test
                     ProjectStartDate = DateTime.Now,
                     ProjectEndDate = DateTime.Now.AddDays(2),
                     ProjectPriority = 10,
-                    ProjectManager = "Test Manager"
+                    ProjectManager = "Test Manager",
+                    NumberOfTasks=10,
+                    Completed="No"
                 },
             };
 
@@ -381,6 +392,21 @@ namespace ProjectManager.Test
                 Assert.AreEqual(Respons[0].ParentID, lstParentTask[0].ParentID);
                 Assert.AreEqual(Respons[0].ParentTask, lstParentTask[0].ParentTask);
             }
+        }
+        [Test,Order(16)]
+        public void AddParent()
+        {
+            ParentTaskData lstParenttask = new ParentTaskData()
+            {
+                ParentID = 0,
+                ParentTask="Test Parent"
+            };
+            var controller = new ProjectController()
+            {
+                Request = new System.Net.Http.HttpRequestMessage(),
+                Configuration = new HttpConfiguration()
+            };
+            Assert.AreEqual("OK", controller.AddParent(lstParenttask).StatusCode.ToString());
         }
 
 

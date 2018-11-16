@@ -16,7 +16,9 @@ namespace ProjectManager.API.Controllers
         /// To Add a new task
         /// </summary>
         /// <param name="task"></param>
-        /// <returns></returns>        
+        /// <returns></returns>  
+        [HttpPost]
+        [Route("AddTask")]
         public HttpResponseMessage AddTask([FromBody]TaskData task)
         {
             try
@@ -34,6 +36,7 @@ namespace ProjectManager.API.Controllers
         /// To return task table data
         /// </summary>
         /// <returns>Task Table Data</returns>        
+        [HttpGet]       
         public ICollection<TaskData> Get()
         {
             return TaskManagerBL.GetAllTasks();                       
@@ -43,6 +46,7 @@ namespace ProjectManager.API.Controllers
         /// To get the specific task
         /// </summary>
         /// <returns>Task Table Data</returns>   
+        [HttpGet]        
         public TaskData Get(int id)
         {
             return TaskManagerBL.GetTask(id);
@@ -53,6 +57,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [System.Web.Http.HttpPut]
+        [Route("EditTask")]
         public HttpResponseMessage EditTask(int id,[FromBody]TaskData task)
         {
             try
@@ -70,6 +75,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [HttpDelete]
+        [Route("DeleteTask")]
         public HttpResponseMessage DeleteTask(int id)
         {
             try
@@ -86,6 +92,8 @@ namespace ProjectManager.API.Controllers
         /// To Add Project
         /// </summary>
         /// <returns>Success or Error Message</returns>    
+        [HttpPost]
+        [Route("AddProject")]
         public HttpResponseMessage AddProject([FromBody]ProjectData Project)
         {
             try
@@ -103,6 +111,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [System.Web.Http.HttpPut]
+        [Route("EditProject")]
         public HttpResponseMessage EditProject(int id, [FromBody]ProjectData Project)
         {
             try
@@ -120,6 +129,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [HttpDelete]
+        [Route("DeleteProject")]
         public HttpResponseMessage DeleteProject(int id)
         {
             try
@@ -136,15 +146,37 @@ namespace ProjectManager.API.Controllers
         /// To return Project table data
         /// </summary>
         /// <returns>Project Table Data</returns>        
+        [HttpGet]
+        [Route("GetAllProjects")]
         public ICollection<ProjectData> GetAllProjects()
         {
             return TaskManagerBL.GetAllProjects();
         }
-        
+        /// <summary>
+        /// To Add Parent Task
+        /// </summary>
+        /// <returns>Success or Error Message</returns>    
+        [HttpPost]
+        [Route("AddParent")]
+        public HttpResponseMessage AddParent([FromBody]ParentTaskData Parent)
+        {
+            try
+            {
+                TaskManagerBL.AddParent(Parent);
+                return Request.CreateResponse(HttpStatusCode.OK, "Success");
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
+            }
+        }
+
         /// <summary>
         /// To Add Project
         /// </summary>
         /// <returns>Success or Error Message</returns>    
+        [HttpPost]
+        [Route("AddUser")]
         public HttpResponseMessage AddUser([FromBody]UserData User)
         {
             try
@@ -162,6 +194,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [System.Web.Http.HttpPut]
+        [Route("EditUser")]
         public HttpResponseMessage EditUser(int id, [FromBody]UserData User)
         {
             try
@@ -179,6 +212,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [HttpDelete]
+        [Route("DeleteUser")]
         public HttpResponseMessage DeleteUser(int id)
         {
             try
@@ -195,6 +229,8 @@ namespace ProjectManager.API.Controllers
         /// To return User table data
         /// </summary>
         /// <returns>User Table Data</returns>        
+        [HttpGet]
+        [Route("GetAllUsers")]
         public ICollection<UserData> GetAllUsers()
         {
             return TaskManagerBL.GetAllUsers();
@@ -203,6 +239,7 @@ namespace ProjectManager.API.Controllers
         /// To return Specific Project table data
         /// </summary>
         /// <returns>Project Table Data</returns>        
+        [Route("GetProject")]
         public ICollection<ProjectData> GetProject(string Project)
         {
             return TaskManagerBL.GetProject(Project);
@@ -211,6 +248,7 @@ namespace ProjectManager.API.Controllers
         /// To return Specific User table data
         /// </summary>
         /// <returns>User Table Data</returns>        
+        [Route("GetUser")]
         public ICollection<UserData> GetUser(string EmployeeID)
         {
             return TaskManagerBL.GetUser(EmployeeID);
@@ -219,9 +257,10 @@ namespace ProjectManager.API.Controllers
         /// To return Specific Parent Task table data
         /// </summary>
         /// <returns>Parent Task Table Data</returns>        
-        public ICollection<ParentTaskData> GetParentTasks(string Task)
+        [Route("GetParentTasks")]
+        public ICollection<ParentTaskData> GetParentTasks()
         {
-            return TaskManagerBL.GetParentTask(Task);
+            return TaskManagerBL.GetParentTask();
         }
 
     }

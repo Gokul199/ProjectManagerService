@@ -18,7 +18,7 @@ namespace TaskManager.API
 
             var cors = new EnableCorsAttribute(origins: "http://localhost:4200", headers: "*", methods: "*");
             cors.SupportsCredentials = true;
-            config.EnableCors(cors);
+            config.EnableCors(cors);         
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

@@ -11,7 +11,7 @@ namespace ProjectManager.EntityModel
     [Table("ParentTaskData")]
    public class ParentTaskData
     {
-        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity), Key()]
         public int ParentID { get; set; }
         public string ParentTask { get; set; }
     }

@@ -25,6 +25,7 @@ namespace ProjectManager.EntityModel
         public DateTime EndDate { get; set; }
 
         public string Status { get; set; }
+        public string Project { get; set; }
 
 
     }

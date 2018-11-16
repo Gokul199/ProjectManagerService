@@ -9,7 +9,7 @@ using ProjectManager.EntityModel;
 namespace ProjectManager.DataLayer
 {
     public class ProjectManagerDAL
-    {        
+    {                
         public void AddTask(TaskData Task)            
         {
             int ParentID = 0;
@@ -120,6 +120,15 @@ namespace ProjectManager.DataLayer
                 }
             }
         }
+
+        public void AddParent(ParentTaskData Parent)
+        {
+            using (var ct = new ProjectManagerContext())
+            {
+                ct.ParentTaskData.Add(Parent);
+                ct.SaveChanges();
+            }
+        }
         
         public void AddUser(UserData User)
         {
@@ -181,12 +190,12 @@ namespace ProjectManager.DataLayer
             }
             return UserMatch;
         }
-        public List<ParentTaskData> GetParentTask(string Task)
+        public List<ParentTaskData> GetParentTask()
         {
             List<ParentTaskData> TaskMatch = new List<ParentTaskData>();
             using (var ct = new ProjectManagerContext())
             {
-                TaskMatch = ct.ParentTaskData.Where(a => a.ParentTask.Contains(Task)).ToList<ParentTaskData>();
+                TaskMatch = (from r in ct.ParentTaskData select r).ToList<ParentTaskData>();
             }
             return TaskMatch;
         }

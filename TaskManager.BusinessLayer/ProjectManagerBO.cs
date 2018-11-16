@@ -49,6 +49,10 @@ namespace ProjectManager.BusinessLayer
         {
             TaskManagerDL.DeleteProject(ID);
         }
+        public void AddParent(ParentTaskData Parent)
+        {
+            TaskManagerDL.AddParent(Parent);
+        }
         public void AddUser(UserData User)
         {
             TaskManagerDL.AddUser(User);
@@ -73,9 +77,9 @@ namespace ProjectManager.BusinessLayer
         {
             return TaskManagerDL.GetUser(EmployeeID);
         }
-        public List<ParentTaskData> GetParentTask(string Task)
+        public List<ParentTaskData> GetParentTask()
         {
-            return TaskManagerDL.GetParentTask(Task);
+            return TaskManagerDL.GetParentTask();
         }
     }
 }
