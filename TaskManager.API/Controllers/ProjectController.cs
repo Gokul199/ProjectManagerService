@@ -17,8 +17,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <param name="task"></param>
         /// <returns></returns>  
-        [HttpPost]
-        [Route("AddTask")]
+        [HttpPost]        
         public HttpResponseMessage AddTask([FromBody]TaskData task)
         {
             try
@@ -57,7 +56,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [System.Web.Http.HttpPut]
-        [Route("EditTask")]
+        [Route("EditTask/{id:int}")]
         public HttpResponseMessage EditTask(int id,[FromBody]TaskData task)
         {
             try
@@ -75,7 +74,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [HttpDelete]
-        [Route("DeleteTask")]
+        [Route("DeleteTask/{id:int}")]
         public HttpResponseMessage DeleteTask(int id)
         {
             try
@@ -111,7 +110,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [System.Web.Http.HttpPut]
-        [Route("EditProject")]
+        [Route("EditProject/{id:int}")]
         public HttpResponseMessage EditProject(int id, [FromBody]ProjectData Project)
         {
             try
@@ -129,7 +128,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [HttpDelete]
-        [Route("DeleteProject")]
+        [Route("DeleteProject/{id:int}")]
         public HttpResponseMessage DeleteProject(int id)
         {
             try
@@ -194,7 +193,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [System.Web.Http.HttpPut]
-        [Route("EditUser")]
+        [Route("EditUser/{id:int}")]
         public HttpResponseMessage EditUser(int id, [FromBody]UserData User)
         {
             try
@@ -212,7 +211,7 @@ namespace ProjectManager.API.Controllers
         /// </summary>
         /// <returns>Success or Error Message</returns>   
         [HttpDelete]
-        [Route("DeleteUser")]
+        [Route("DeleteUser/{id:int}")]
         public HttpResponseMessage DeleteUser(int id)
         {
             try

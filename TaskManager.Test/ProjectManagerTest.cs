@@ -384,7 +384,7 @@ namespace ProjectManager.Test
                 Request = new System.Net.Http.HttpRequestMessage(),
                 Configuration = new HttpConfiguration()
             };
-            List<ParentTaskData> Respons = controller.GetParentTasks(ParentTask).ToList();
+            List<ParentTaskData> Respons = controller.GetParentTasks().ToList();
 
             Assert.AreEqual(Respons.Count, lstParentTask.Count);
             if (Respons.Count == lstParentTask.Count)

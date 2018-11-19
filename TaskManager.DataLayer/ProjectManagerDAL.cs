@@ -142,7 +142,7 @@ namespace ProjectManager.DataLayer
         {
             using (var ct = new ProjectManagerContext())
             {
-                var Upduser= ct.UserData.Where(a => a.ProjectID == ID).FirstOrDefault();
+                var Upduser= ct.UserData.Where(a => a.UserID == ID).FirstOrDefault();
                 Upduser.FirstName = User.FirstName;
                 Upduser.LastName = User.LastName;
                 Upduser.EmployeeID = User.EmployeeID;

@@ -325,7 +325,7 @@ var assemblies = [
   {
     "name": "TaskManager.Test",
     "classes": [
-      { "name": "TaskManager.Test.TaskManagerTest", "reportPath": "TaskManager.Test_TaskManagerTest.htm", "coveredLines": 76, "uncoveredLines": 0, "coverableLines": 76, "totalLines": 113, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 1, "totalBranches": 2, "lineCoverageHistory": [], "branchCoverageHistory": [] },
+      { "name": "ProjectManager.Test.ProjectManagerTest", "reportPath": "TaskManager.Test_ProjectManagerTest.htm", "coveredLines": 342, "uncoveredLines": 0, "coverableLines": 342, "totalLines": 414, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 6, "totalBranches": 12, "lineCoverageHistory": [], "branchCoverageHistory": [] },
     ]},
 ];
 
